@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "lr-speckle-vidgen_jd478"
+name = "lr-speckle-cache_hit_attribution_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告文生视频工程师·缓存命中率的归因相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://lr-speckle.github.io"
-Repository = "https://github.com/lr-speckle/vidgen_jd478"
-Issues = "https://github.com/lr-speckle/vidgen_jd478/issues"
+Repository = "https://github.com/lr-speckle/cache_hit_attribution_pattern_locate"
+Issues = "https://github.com/lr-speckle/cache_hit_attribution_pattern_locate/issues"
 
 [project.scripts]
-vidgen_jd478 = "vidgen_jd478:main"
+cache_hit_attribution_pattern_locate = "cache_hit_attribution_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["vidgen_jd478"]
+py-modules = ["cache_hit_attribution_pattern_locate"]
